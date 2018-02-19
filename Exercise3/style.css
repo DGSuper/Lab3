@@ -1,0 +1,26 @@
+body
+{
+  background-image: url(banksy-thug-flowers-mural-design.jpg);
+  background-size: 100%;
+  background-repeat: fixed;
+}
+img {
+  border-radius: 50%;
+}
+
+p {
+  background-color: #ffffff;
+  color: red;
+  font-family: arial;
+  font-size: 22pt;
+}
+p.works {
+  color: blue;
+}
+a {
+  background: white;
+  color: black;
+}
+a:hover {
+  color:red;
+}
