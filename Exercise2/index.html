@@ -1,28 +1,36 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title> Slide Show </title>
 	</head>
-	<script src="slideShow.js"></script>
-	<script src="style.css"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<body>
-		<div class="container">
-		  <ul id="slides">
-				<img class="slide showing" src="007_fyd.jpg" width="100%">
-				<img class="slide" src="020_twlnwif.jpg" width="100%">
-				<img class="slide" src="8932_c2.jpg" width="100%">
-				<img class="slide" src="chlt14-7.jpg" width="100%">
-				<img class="slide" src="cywgrnge.jpg" width="100%">
-				<img class="slide" src="grafhlboy2.jpg" width="100%">
-				<img class="slide" src="mi_02.2_O.jpg" width="100%">
-		  </ul>
-	  <div class="buttons">
-	    <button class="controls" id="previous">&lt;</button>
-
-	    <button class="controls" id="pause">&#10074;&#10074;</button>
-
-	    <button class="controls" id="next">&gt;</button>
-	  </div>
+		<div class="slideshow-container">
+			<div class="slides fade">
+			  <img src="007_fyd.jpg" style="width:100%">
+			</div>
+			<div class="slides fade">
+			  <img src="020_twlnwif.jpg" style="width:100%">
+			</div>
+			<div class="slides fade">
+			  <img src="8932_c2.jpg" style="width:100%">
+			</div>
+			<div class="slides fade">
+			  <img src="chlt14-7.jpg" style="width:100%">
+			</div>
+			<div class="slides fade">
+			  <img src="cywgrnge.jpg" style="width:100%">
+			</div>
+			<div class="slides fade">
+			  <img src="grafhlboy2.jpg" style="width:100%">
+			</div>
+			<div class="slides fade">
+			  <img src="mi_02.2_O.jpg" style="width:100%">
+			</div>
+			<a class="prev" onclick="nextSlides(-1)">&#10094;</a>
+			<a class="next" onclick="nextSlides(1)">&#10095;</a>
 	</div>
-
+	<script src="slideShow.js"></script>
 	</body>
 </html>
